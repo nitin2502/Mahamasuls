@@ -1,350 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="33" passed="24" failed="9" skipped="0">
+<testng-results ignored="0" total="39" passed="36" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-27T16:42:44 IST" name="Login Suite" finished-at="2025-02-27T16:50:07 IST" duration-ms="442984">
+  <suite started-at="2025-03-06T12:36:32 IST" name="Login Suite" finished-at="2025-03-06T12:47:45 IST" duration-ms="673187">
     <groups>
     </groups>
-    <test started-at="2025-02-27T16:42:44 IST" name="Login Tests" finished-at="2025-02-27T16:50:07 IST" duration-ms="442984">
+    <test started-at="2025-03-06T12:36:32 IST" name="Login Tests" finished-at="2025-03-06T12:47:45 IST" duration-ms="673187">
       <class name="Login.SignUp">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Login.SignUp@312aa7c]" started-at="2025-02-27T16:42:44 IST" name="setUp" finished-at="2025-02-27T16:43:06 IST" duration-ms="21645" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Login.SignUp@333d4a8c]" started-at="2025-03-06T12:36:32 IST" name="setUp" finished-at="2025-03-06T12:36:54 IST" duration-ms="21906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignupFormIndividual()[pri:1, instance:Login.SignUp@312aa7c]" started-at="2025-02-27T16:43:06 IST" name="testSignupFormIndividual" finished-at="2025-02-27T16:43:27 IST" duration-ms="20848" status="PASS">
+        <test-method signature="testSignupFormIndividual()[pri:1, instance:Login.SignUp@333d4a8c]" started-at="2025-03-06T12:36:54 IST" name="testSignupFormIndividual" finished-at="2025-03-06T12:37:14 IST" duration-ms="19823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupFormIndividual -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.SignUp@312aa7c]" started-at="2025-02-27T16:43:27 IST" name="tearDown" finished-at="2025-02-27T16:43:30 IST" duration-ms="3395" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.SignUp@333d4a8c]" started-at="2025-03-06T12:37:14 IST" name="tearDown" finished-at="2025-03-06T12:37:15 IST" duration-ms="1439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Login.SignUp -->
-      <class name="Login.ApprovalAdditionalCollctr13">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalAdditionalCollctr13@4201c465]" started-at="2025-02-27T16:49:34 IST" name="setup" finished-at="2025-02-27T16:49:36 IST" duration-ms="2157" status="PASS">
+      <class name="Login.ApprovalTenancyTahsil16">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTenancyTahsil16@16150369]" started-at="2025-03-06T12:46:42 IST" name="setup" finished-at="2025-03-06T12:46:43 IST" duration-ms="1337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalAdditionalCollctr13@4201c465]" started-at="2025-02-27T16:49:36 IST" name="testLogin" finished-at="2025-02-27T16:49:45 IST" duration-ms="8438" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login Failed! expected [https://mahamahsul-pune.mahamining.com/dashboard] but found [https://mahamahsul-pune.mahamining.com/login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login Failed! expected [https://mahamahsul-pune.mahamining.com/dashboard] but found [https://mahamahsul-pune.mahamining.com/login]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at Login.ApprovalAdditionalCollctr13.testLogin(ApprovalAdditionalCollctr13.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTenancyTahsil16@16150369]" started-at="2025-03-06T12:46:43 IST" name="testLogin" finished-at="2025-03-06T12:46:55 IST" duration-ms="11407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalAdditionalCollctr13@4201c465]" started-at="2025-02-27T16:49:45 IST" name="Applicationlist" finished-at="2025-02-27T16:49:55 IST" duration-ms="10018" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Application List']"}
-  (Session info: chrome=133.0.6943.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3c6d2aae8482fca8b4fd83f5d908bf2, findElement {using=xpath, value=//span[normalize-space()='Application List']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63790}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63790/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b3c6d2aae8482fca8b4fd83f5d908bf2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Application List']"}
-  (Session info: chrome=133.0.6943.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3c6d2aae8482fca8b4fd83f5d908bf2, findElement {using=xpath, value=//span[normalize-space()='Application List']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63790}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63790/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b3c6d2aae8482fca8b4fd83f5d908bf2
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at Login.ApprovalAdditionalCollctr13.Applicationlist(ApprovalAdditionalCollctr13.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTenancyTahsil16@16150369]" started-at="2025-03-06T12:46:55 IST" name="Applicationlist" finished-at="2025-03-06T12:47:14 IST" duration-ms="18910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalAdditionalCollctr13@4201c465]" started-at="2025-02-27T16:49:55 IST" name="teardown" finished-at="2025-02-27T16:49:55 IST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTenancyTahsil16@16150369]" started-at="2025-03-06T12:47:14 IST" name="teardown" finished-at="2025-03-06T12:47:14 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Login.ApprovalTenancyTahsil16 -->
+      <class name="Login.ApprovalAdditionalCollctr13">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalAdditionalCollctr13@97e93f1]" started-at="2025-03-06T12:45:01 IST" name="setup" finished-at="2025-03-06T12:45:03 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalAdditionalCollctr13@97e93f1]" started-at="2025-03-06T12:45:03 IST" name="testLogin" finished-at="2025-03-06T12:45:12 IST" duration-ms="9304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalAdditionalCollctr13@97e93f1]" started-at="2025-03-06T12:45:12 IST" name="Applicationlist" finished-at="2025-03-06T12:45:32 IST" duration-ms="19757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applicationlist -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalAdditionalCollctr13@97e93f1]" started-at="2025-03-06T12:45:32 IST" name="teardown" finished-at="2025-03-06T12:45:32 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalAdditionalCollctr13 -->
       <class name="Login.ApprovalDeputyCollctr12">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalDeputyCollctr12@7a5ceedd]" started-at="2025-02-27T16:49:21 IST" name="setup" finished-at="2025-02-27T16:49:22 IST" duration-ms="1275" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalDeputyCollctr12@aba625]" started-at="2025-03-06T12:44:30 IST" name="setup" finished-at="2025-03-06T12:44:31 IST" duration-ms="1317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalDeputyCollctr12@7a5ceedd]" started-at="2025-02-27T16:49:22 IST" name="testLogin" finished-at="2025-02-27T16:49:33 IST" duration-ms="10499" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalDeputyCollctr12@aba625]" started-at="2025-03-06T12:44:31 IST" name="testLogin" finished-at="2025-03-06T12:44:40 IST" duration-ms="9577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalDeputyCollctr12@7a5ceedd]" started-at="2025-02-27T16:49:33 IST" name="Applicationlist" finished-at="2025-02-27T16:49:34 IST" duration-ms="1123" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fcff3e053dfb1a7ebeb2d0fd8476985, clickElement {id=f.A0784D1F239F52C71E947B69C2675FFD.d.165B6DE022BE85D6475172259DACCA01.e.45}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1fcff3e053dfb1a7ebeb2d0fd8476985)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: 1fcff3e053dfb1a7ebeb2d0fd8476985]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fcff3e053dfb1a7ebeb2d0fd8476985, clickElement {id=f.A0784D1F239F52C71E947B69C2675FFD.d.165B6DE022BE85D6475172259DACCA01.e.45}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1fcff3e053dfb1a7ebeb2d0fd8476985)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: 1fcff3e053dfb1a7ebeb2d0fd8476985
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at Login.ApprovalDeputyCollctr12.Applicationlist(ApprovalDeputyCollctr12.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalDeputyCollctr12@aba625]" started-at="2025-03-06T12:44:40 IST" name="Applicationlist" finished-at="2025-03-06T12:45:00 IST" duration-ms="19694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalDeputyCollctr12@7a5ceedd]" started-at="2025-02-27T16:49:34 IST" name="teardown" finished-at="2025-02-27T16:49:34 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalDeputyCollctr12@aba625]" started-at="2025-03-06T12:45:00 IST" name="teardown" finished-at="2025-03-06T12:45:01 IST" duration-ms="1238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalDeputyCollctr12 -->
       <class name="Login.ApprovalJRClerk9">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerk9@1a245833]" started-at="2025-02-27T16:48:12 IST" name="setup" finished-at="2025-02-27T16:48:14 IST" duration-ms="2077" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerk9@491b9b8]" started-at="2025-03-06T12:42:51 IST" name="setup" finished-at="2025-03-06T12:42:52 IST" duration-ms="1352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerk9@1a245833]" started-at="2025-02-27T16:48:14 IST" name="testLogin" finished-at="2025-02-27T16:48:22 IST" duration-ms="8456" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerk9@491b9b8]" started-at="2025-03-06T12:42:52 IST" name="testLogin" finished-at="2025-03-06T12:43:02 IST" duration-ms="9225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerk9@1a245833]" started-at="2025-02-27T16:48:22 IST" name="Applicationlist" finished-at="2025-02-27T16:48:40 IST" duration-ms="18110" status="PASS">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerk9@491b9b8]" started-at="2025-03-06T12:43:02 IST" name="Applicationlist" finished-at="2025-03-06T12:43:24 IST" duration-ms="22578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerk9@1a245833]" started-at="2025-02-27T16:48:40 IST" name="teardown" finished-at="2025-02-27T16:48:41 IST" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerk9@491b9b8]" started-at="2025-03-06T12:43:24 IST" name="teardown" finished-at="2025-03-06T12:43:25 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalJRClerk9 -->
       <class name="Login.ApprovalTenancyTahsil8">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTenancyTahsil8@4007f65e]" started-at="2025-02-27T16:47:44 IST" name="setup" finished-at="2025-02-27T16:47:46 IST" duration-ms="1989" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTenancyTahsil8@79207381]" started-at="2025-03-06T12:42:19 IST" name="setup" finished-at="2025-03-06T12:42:21 IST" duration-ms="2733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTenancyTahsil8@4007f65e]" started-at="2025-02-27T16:47:46 IST" name="testLogin" finished-at="2025-02-27T16:47:54 IST" duration-ms="8418" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTenancyTahsil8@79207381]" started-at="2025-03-06T12:42:21 IST" name="testLogin" finished-at="2025-03-06T12:42:30 IST" duration-ms="8368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTenancyTahsil8@4007f65e]" started-at="2025-02-27T16:47:54 IST" name="Applicationlist" finished-at="2025-02-27T16:48:11 IST" duration-ms="16654" status="PASS">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTenancyTahsil8@79207381]" started-at="2025-03-06T12:42:30 IST" name="Applicationlist" finished-at="2025-03-06T12:42:51 IST" duration-ms="20799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTenancyTahsil8@4007f65e]" started-at="2025-02-27T16:48:11 IST" name="teardown" finished-at="2025-02-27T16:48:12 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTenancyTahsil8@79207381]" started-at="2025-03-06T12:42:51 IST" name="teardown" finished-at="2025-03-06T12:42:51 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalTenancyTahsil8 -->
       <class name="Login.ApplicantForm">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApplicantForm@71075444]" started-at="2025-02-27T16:43:30 IST" name="setup" finished-at="2025-02-27T16:43:32 IST" duration-ms="1469" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApplicantForm@7e990ed7]" started-at="2025-03-06T12:37:15 IST" name="setup" finished-at="2025-03-06T12:37:16 IST" duration-ms="1416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:Login.ApplicantForm@71075444]" started-at="2025-02-27T16:43:32 IST" name="testLogin" finished-at="2025-02-27T16:43:40 IST" duration-ms="8261" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:Login.ApplicantForm@7e990ed7]" started-at="2025-03-06T12:37:16 IST" name="testLogin" finished-at="2025-03-06T12:37:25 IST" duration-ms="8325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testfillapplication()[pri:1, instance:Login.ApplicantForm@71075444]" started-at="2025-02-27T16:43:40 IST" name="testfillapplication" finished-at="2025-02-27T16:43:56 IST" duration-ms="15746" status="PASS">
+        <test-method signature="testfillapplication()[pri:1, instance:Login.ApplicantForm@7e990ed7]" started-at="2025-03-06T12:37:25 IST" name="testfillapplication" finished-at="2025-03-06T12:37:41 IST" duration-ms="15730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testfillapplication -->
-        <test-method signature="tribalapplicatin()[pri:2, instance:Login.ApplicantForm@71075444]" started-at="2025-02-27T16:43:56 IST" name="tribalapplicatin" finished-at="2025-02-27T16:44:14 IST" duration-ms="18768" status="PASS">
+        <test-method signature="tribalapplicatin()[pri:2, instance:Login.ApplicantForm@7e990ed7]" started-at="2025-03-06T12:37:41 IST" name="tribalapplicatin" finished-at="2025-03-06T12:37:59 IST" duration-ms="18756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tribalapplicatin -->
-        <test-method signature="Uploaddocument()[pri:3, instance:Login.ApplicantForm@71075444]" started-at="2025-02-27T16:44:14 IST" name="Uploaddocument" finished-at="2025-02-27T16:44:26 IST" duration-ms="11143" status="PASS">
+        <test-method signature="Uploaddocument()[pri:3, instance:Login.ApplicantForm@7e990ed7]" started-at="2025-03-06T12:37:59 IST" name="Uploaddocument" finished-at="2025-03-06T12:38:10 IST" duration-ms="11078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Uploaddocument -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApplicantForm@71075444]" started-at="2025-02-27T16:44:26 IST" name="teardown" finished-at="2025-02-27T16:44:26 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApplicantForm@7e990ed7]" started-at="2025-03-06T12:38:10 IST" name="teardown" finished-at="2025-03-06T12:38:11 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApplicantForm -->
-      <class name="Login.ApprovalSRClerkTenency10">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalSRClerkTenency10@673fdbce]" started-at="2025-02-27T16:48:41 IST" name="setup" finished-at="2025-02-27T16:48:43 IST" duration-ms="2198" status="PASS">
+      <class name="Login.ApprovalRDC17">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalRDC17@6b09fb41]" started-at="2025-03-06T12:47:14 IST" name="setup" finished-at="2025-03-06T12:47:17 IST" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalSRClerkTenency10@673fdbce]" started-at="2025-02-27T16:48:43 IST" name="testLogin" finished-at="2025-02-27T16:48:51 IST" duration-ms="8439" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalRDC17@6b09fb41]" started-at="2025-03-06T12:47:17 IST" name="testLogin" finished-at="2025-03-06T12:47:28 IST" duration-ms="11367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalSRClerkTenency10@673fdbce]" started-at="2025-02-27T16:48:51 IST" name="Applicationlist" finished-at="2025-02-27T16:49:08 IST" duration-ms="16758" status="PASS">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalRDC17@6b09fb41]" started-at="2025-03-06T12:47:28 IST" name="Applicationlist" finished-at="2025-03-06T12:47:45 IST" duration-ms="16523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalSRClerkTenency10@673fdbce]" started-at="2025-02-27T16:49:08 IST" name="teardown" finished-at="2025-02-27T16:49:08 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalRDC17@6b09fb41]" started-at="2025-03-06T12:47:45 IST" name="teardown" finished-at="2025-03-06T12:47:45 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Login.ApprovalRDC17 -->
+      <class name="Login.ApprovalSRClerkTenency10">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalSRClerkTenency10@1a4927d6]" started-at="2025-03-06T12:43:25 IST" name="setup" finished-at="2025-03-06T12:43:27 IST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalSRClerkTenency10@1a4927d6]" started-at="2025-03-06T12:43:27 IST" name="testLogin" finished-at="2025-03-06T12:43:35 IST" duration-ms="8413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalSRClerkTenency10@1a4927d6]" started-at="2025-03-06T12:43:35 IST" name="Applicationlist" finished-at="2025-03-06T12:43:55 IST" duration-ms="19956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applicationlist -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalSRClerkTenency10@1a4927d6]" started-at="2025-03-06T12:43:55 IST" name="teardown" finished-at="2025-03-06T12:43:56 IST" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalSRClerkTenency10 -->
       <class name="Login.ApprovalTahsildar">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTahsildar@4d1bf319]" started-at="2025-02-27T16:45:04 IST" name="setup" finished-at="2025-02-27T16:45:06 IST" duration-ms="2519" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTahsildar@4d15107f]" started-at="2025-03-06T12:39:12 IST" name="setup" finished-at="2025-03-06T12:39:14 IST" duration-ms="2177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTahsildar@4d1bf319]" started-at="2025-02-27T16:45:06 IST" name="testLogin" finished-at="2025-02-27T16:45:16 IST" duration-ms="9429" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTahsildar@4d15107f]" started-at="2025-03-06T12:39:14 IST" name="testLogin" finished-at="2025-03-06T12:39:23 IST" duration-ms="9428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTahsildar@4d1bf319]" started-at="2025-02-27T16:45:16 IST" name="Applicationlist" finished-at="2025-02-27T16:45:28 IST" duration-ms="12842" status="FAIL">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTahsildar@4d15107f]" started-at="2025-03-06T12:39:23 IST" name="Applicationlist" finished-at="2025-03-06T12:39:43 IST" duration-ms="19575" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7d4976c73e56d46ff42cac0d28caf51, switchToWindow {handle=BD1D3A3AA9B7398FA9CA91E23B44E320}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63458/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7d4976c73e56d46ff42cac0d28caf51]]>
+Command: [b424e8c4567fa20fbbab689fa668eeff, switchToWindow {handle=14AC5963DAC360CB6DDEB28D46E2DA3E}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56536/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b424e8c4567fa20fbbab689fa668eeff]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7d4976c73e56d46ff42cac0d28caf51, switchToWindow {handle=BD1D3A3AA9B7398FA9CA91E23B44E320}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63458/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7d4976c73e56d46ff42cac0d28caf51
+Command: [b424e8c4567fa20fbbab689fa668eeff, switchToWindow {handle=14AC5963DAC360CB6DDEB28D46E2DA3E}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56536/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b424e8c4567fa20fbbab689fa668eeff
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -358,32 +213,32 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-at Login.ApprovalTahsildar.Applicationlist(ApprovalTahsildar.java:95)
+at Login.ApprovalTahsildar.Applicationlist(ApprovalTahsildar.java:96)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -393,229 +248,93 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTahsildar@4d1bf319]" started-at="2025-02-27T16:45:28 IST" name="teardown" finished-at="2025-02-27T16:45:29 IST" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTahsildar@4d15107f]" started-at="2025-03-06T12:39:43 IST" name="teardown" finished-at="2025-03-06T12:39:43 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalTahsildar -->
       <class name="Login.ApprovalTenencyTahsil11">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTenencyTahsil11@5965d37]" started-at="2025-02-27T16:49:08 IST" name="setup" finished-at="2025-02-27T16:49:10 IST" duration-ms="1949" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalTenencyTahsil11@7a6d7e92]" started-at="2025-03-06T12:43:56 IST" name="setup" finished-at="2025-03-06T12:43:58 IST" duration-ms="1402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTenencyTahsil11@5965d37]" started-at="2025-02-27T16:49:10 IST" name="testLogin" finished-at="2025-02-27T16:49:19 IST" duration-ms="8397" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalTenencyTahsil11@7a6d7e92]" started-at="2025-03-06T12:43:58 IST" name="testLogin" finished-at="2025-03-06T12:44:07 IST" duration-ms="9416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTenencyTahsil11@5965d37]" started-at="2025-02-27T16:49:19 IST" name="Applicationlist" finished-at="2025-02-27T16:49:20 IST" duration-ms="1085" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f8e4b2ee326df89fe0e57541b9064e4, clickElement {id=f.38DEFBC58EE423CC3FB959325417435E.d.C7A8F610F034CF35DB2150676900FCA0.e.39}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63731/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0f8e4b2ee326df89fe0e57541b9064e4)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: 0f8e4b2ee326df89fe0e57541b9064e4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f8e4b2ee326df89fe0e57541b9064e4, clickElement {id=f.38DEFBC58EE423CC3FB959325417435E.d.C7A8F610F034CF35DB2150676900FCA0.e.39}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63731/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0f8e4b2ee326df89fe0e57541b9064e4)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: 0f8e4b2ee326df89fe0e57541b9064e4
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at Login.ApprovalTenencyTahsil11.Applicationlist(ApprovalTenencyTahsil11.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalTenencyTahsil11@7a6d7e92]" started-at="2025-03-06T12:44:07 IST" name="Applicationlist" finished-at="2025-03-06T12:44:29 IST" duration-ms="22066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTenencyTahsil11@5965d37]" started-at="2025-02-27T16:49:20 IST" name="teardown" finished-at="2025-02-27T16:49:21 IST" duration-ms="1223" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalTenencyTahsil11@7a6d7e92]" started-at="2025-03-06T12:44:29 IST" name="teardown" finished-at="2025-03-06T12:44:30 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalTenencyTahsil11 -->
       <class name="Login.ApprovalSrClerk6">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalSrClerk6@7d900ecf]" started-at="2025-02-27T16:46:49 IST" name="setup" finished-at="2025-02-27T16:46:51 IST" duration-ms="2242" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalSrClerk6@50378a4]" started-at="2025-03-06T12:41:15 IST" name="setup" finished-at="2025-03-06T12:41:17 IST" duration-ms="1313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalSrClerk6@7d900ecf]" started-at="2025-02-27T16:46:51 IST" name="testLogin" finished-at="2025-02-27T16:47:00 IST" duration-ms="8420" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalSrClerk6@50378a4]" started-at="2025-03-06T12:41:17 IST" name="testLogin" finished-at="2025-03-06T12:41:26 IST" duration-ms="9573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalSrClerk6@7d900ecf]" started-at="2025-02-27T16:47:00 IST" name="Applicationlist" finished-at="2025-02-27T16:47:16 IST" duration-ms="16417" status="PASS">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalSrClerk6@50378a4]" started-at="2025-03-06T12:41:26 IST" name="Applicationlist" finished-at="2025-03-06T12:41:45 IST" duration-ms="19240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalSrClerk6@7d900ecf]" started-at="2025-02-27T16:47:16 IST" name="teardown" finished-at="2025-02-27T16:47:16 IST" duration-ms="385" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalSrClerk6@50378a4]" started-at="2025-03-06T12:41:45 IST" name="teardown" finished-at="2025-03-06T12:41:46 IST" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalSrClerk6 -->
       <class name="Login.ApprovaljrClerk">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovaljrClerk@4f32a3ad]" started-at="2025-02-27T16:44:26 IST" name="setup" finished-at="2025-02-27T16:44:28 IST" duration-ms="2032" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovaljrClerk@c05fddc]" started-at="2025-03-06T12:38:11 IST" name="setup" finished-at="2025-03-06T12:38:12 IST" duration-ms="1390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovaljrClerk@4f32a3ad]" started-at="2025-02-27T16:44:28 IST" name="testLogin" finished-at="2025-02-27T16:44:37 IST" duration-ms="9404" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovaljrClerk@c05fddc]" started-at="2025-03-06T12:38:12 IST" name="testLogin" finished-at="2025-03-06T12:38:22 IST" duration-ms="10313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovaljrClerk@4f32a3ad]" started-at="2025-02-27T16:44:37 IST" name="Applicationlist" finished-at="2025-02-27T16:44:38 IST" duration-ms="1098" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc6d81c9bed94877c5d7c2e10cde4310, clickElement {id=f.20679065D0BAC49F655748884D7CA71A.d.FED5E57772C4E31A3360A689874B9221.e.46}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63393/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (cc6d81c9bed94877c5d7c2e10cde4310)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: cc6d81c9bed94877c5d7c2e10cde4310]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc6d81c9bed94877c5d7c2e10cde4310, clickElement {id=f.20679065D0BAC49F655748884D7CA71A.d.FED5E57772C4E31A3360A689874B9221.e.46}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63393/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (cc6d81c9bed94877c5d7c2e10cde4310)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: cc6d81c9bed94877c5d7c2e10cde4310
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at Login.ApprovaljrClerk.Applicationlist(ApprovaljrClerk.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovaljrClerk@c05fddc]" started-at="2025-03-06T12:38:22 IST" name="Applicationlist" finished-at="2025-03-06T12:38:43 IST" duration-ms="21014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovaljrClerk@4f32a3ad]" started-at="2025-02-27T16:44:38 IST" name="teardown" finished-at="2025-02-27T16:44:39 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovaljrClerk@c05fddc]" started-at="2025-03-06T12:38:43 IST" name="teardown" finished-at="2025-03-06T12:38:44 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovaljrClerk -->
       <class name="Login.ApprovalsrClerk">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalsrClerk@6b695b06]" started-at="2025-02-27T16:44:39 IST" name="setup" finished-at="2025-02-27T16:44:40 IST" duration-ms="1303" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalsrClerk@25df00a0]" started-at="2025-03-06T12:38:44 IST" name="setup" finished-at="2025-03-06T12:38:45 IST" duration-ms="1273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalsrClerk@6b695b06]" started-at="2025-02-27T16:44:40 IST" name="testLogin" finished-at="2025-02-27T16:44:50 IST" duration-ms="10141" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalsrClerk@25df00a0]" started-at="2025-03-06T12:38:45 IST" name="testLogin" finished-at="2025-03-06T12:38:56 IST" duration-ms="10547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalsrClerk@6b695b06]" started-at="2025-02-27T16:44:50 IST" name="Applicationlist" finished-at="2025-02-27T16:45:04 IST" duration-ms="13416" status="FAIL">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalsrClerk@25df00a0]" started-at="2025-03-06T12:38:56 IST" name="Applicationlist" finished-at="2025-03-06T12:39:12 IST" duration-ms="15970" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de5e2660e0f36f41e332ca06449bcf4c, switchToWindow {handle=897CC02702E4AAC7960676E2795FEF0A}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63419/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de5e2660e0f36f41e332ca06449bcf4c]]>
+Command: [2bfb1982c0a3b07de9f63426c1b79ce4, switchToWindow {handle=F6C8C77FECE94FDB90D4C897781BCBA1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bfb1982c0a3b07de9f63426c1b79ce4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de5e2660e0f36f41e332ca06449bcf4c, switchToWindow {handle=897CC02702E4AAC7960676E2795FEF0A}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63419/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de5e2660e0f36f41e332ca06449bcf4c
+Command: [2bfb1982c0a3b07de9f63426c1b79ce4, switchToWindow {handle=F6C8C77FECE94FDB90D4C897781BCBA1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bfb1982c0a3b07de9f63426c1b79ce4
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -629,32 +348,32 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-at Login.ApprovalsrClerk.Applicationlist(ApprovalsrClerk.java:95)
+at Login.ApprovalsrClerk.Applicationlist(ApprovalsrClerk.java:96)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -664,161 +383,107 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalsrClerk@6b695b06]" started-at="2025-02-27T16:45:04 IST" name="teardown" finished-at="2025-02-27T16:45:04 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalsrClerk@25df00a0]" started-at="2025-03-06T12:39:12 IST" name="teardown" finished-at="2025-03-06T12:39:12 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalsrClerk -->
       <class name="Login.ApprovalJRClerkTaluka5">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerkTaluka5@5c80cf32]" started-at="2025-02-27T16:45:53 IST" name="setup" finished-at="2025-02-27T16:45:55 IST" duration-ms="2027" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerkTaluka5@5884a914]" started-at="2025-03-06T12:40:14 IST" name="setup" finished-at="2025-03-06T12:40:15 IST" duration-ms="1365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerkTaluka5@5c80cf32]" started-at="2025-02-27T16:45:55 IST" name="testLogin" finished-at="2025-02-27T16:46:05 IST" duration-ms="9403" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerkTaluka5@5884a914]" started-at="2025-03-06T12:40:15 IST" name="testLogin" finished-at="2025-03-06T12:40:25 IST" duration-ms="10374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerkTaluka5@5c80cf32]" started-at="2025-02-27T16:46:05 IST" name="Applicationlist" finished-at="2025-02-27T16:46:49 IST" duration-ms="44138" status="PASS">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerkTaluka5@5884a914]" started-at="2025-03-06T12:40:25 IST" name="Applicationlist" finished-at="2025-03-06T12:41:15 IST" duration-ms="49748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerkTaluka5@5c80cf32]" started-at="2025-02-27T16:46:49 IST" name="teardown" finished-at="2025-02-27T16:46:49 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerkTaluka5@5884a914]" started-at="2025-03-06T12:41:15 IST" name="teardown" finished-at="2025-03-06T12:41:15 IST" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.ApprovalJRClerkTaluka5 -->
-      <class name="Login.ApprovalJRClerk14">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerk14@5b799640]" started-at="2025-02-27T16:49:55 IST" name="setup" finished-at="2025-02-27T16:49:57 IST" duration-ms="2190" status="PASS">
+      <class name="Login.ApprovalSRClerkTenancy15">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalSRClerkTenancy15@4b520ea8]" started-at="2025-03-06T12:46:09 IST" name="setup" finished-at="2025-03-06T12:46:13 IST" duration-ms="4582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerk14@5b799640]" started-at="2025-02-27T16:49:57 IST" name="testLogin" finished-at="2025-02-27T16:50:06 IST" duration-ms="8464" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalSRClerkTenancy15@4b520ea8]" started-at="2025-03-06T12:46:13 IST" name="testLogin" finished-at="2025-03-06T12:46:22 IST" duration-ms="8363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerk14@5b799640]" started-at="2025-02-27T16:50:06 IST" name="Applicationlist" finished-at="2025-02-27T16:50:07 IST" duration-ms="1091" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac4c1a72a16c959a3c91797c74003b8e, clickElement {id=f.58ADC6A79853C8FCD8C8082F362D8F8A.d.83CEA53B9450BDDFF8A07F32F31ED8CC.e.39}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63818/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ac4c1a72a16c959a3c91797c74003b8e)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: ac4c1a72a16c959a3c91797c74003b8e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c335741203="">...</span> is not clickable at point (106, 144). Other element would receive the click: <div _ngcontent-ng-c2009170884="" class="ngx-spinner-overlay ng-tns-c2009170884-0 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac4c1a72a16c959a3c91797c74003b8e, clickElement {id=f.58ADC6A79853C8FCD8C8082F362D8F8A.d.83CEA53B9450BDDFF8A07F32F31ED8CC.e.39}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63818/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ac4c1a72a16c959a3c91797c74003b8e)] -> xpath: //span[normalize-space()='Application List']]
-Session ID: ac4c1a72a16c959a3c91797c74003b8e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at Login.ApprovalJRClerk14.Applicationlist(ApprovalJRClerk14.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalSRClerkTenancy15@4b520ea8]" started-at="2025-03-06T12:46:22 IST" name="Applicationlist" finished-at="2025-03-06T12:46:42 IST" duration-ms="20016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerk14@5b799640]" started-at="2025-02-27T16:50:07 IST" name="teardown" finished-at="2025-02-27T16:50:07 IST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalSRClerkTenancy15@4b520ea8]" started-at="2025-03-06T12:46:42 IST" name="teardown" finished-at="2025-03-06T12:46:42 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Login.ApprovalJRClerk14 -->
-      <class name="Login.Approvaltalukatahsildar7">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.Approvaltalukatahsildar7@6f01b95f]" started-at="2025-02-27T16:47:16 IST" name="setup" finished-at="2025-02-27T16:47:19 IST" duration-ms="2244" status="PASS">
+      </class> <!-- Login.ApprovalSRClerkTenancy15 -->
+      <class name="Login.ApprovalJRClerk14">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerk14@5a5a729f]" started-at="2025-03-06T12:45:32 IST" name="setup" finished-at="2025-03-06T12:45:34 IST" duration-ms="1405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.Approvaltalukatahsildar7@6f01b95f]" started-at="2025-02-27T16:47:19 IST" name="testLogin" finished-at="2025-02-27T16:47:27 IST" duration-ms="8414" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerk14@5a5a729f]" started-at="2025-03-06T12:45:34 IST" name="testLogin" finished-at="2025-03-06T12:45:45 IST" duration-ms="11044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.Approvaltalukatahsildar7@6f01b95f]" started-at="2025-02-27T16:47:27 IST" name="Applicationlist" finished-at="2025-02-27T16:47:44 IST" duration-ms="16528" status="PASS">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerk14@5a5a729f]" started-at="2025-03-06T12:45:45 IST" name="Applicationlist" finished-at="2025-03-06T12:46:09 IST" duration-ms="24103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.Approvaltalukatahsildar7@6f01b95f]" started-at="2025-02-27T16:47:44 IST" name="teardown" finished-at="2025-02-27T16:47:44 IST" duration-ms="388" status="PASS">
+      </class> <!-- Login.ApprovalJRClerk14 -->
+      <class name="Login.Approvaltalukatahsildar7">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.Approvaltalukatahsildar7@60f00693]" started-at="2025-03-06T12:41:46 IST" name="setup" finished-at="2025-03-06T12:41:48 IST" duration-ms="2531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:1, instance:Login.Approvaltalukatahsildar7@60f00693]" started-at="2025-03-06T12:41:48 IST" name="testLogin" finished-at="2025-03-06T12:41:57 IST" duration-ms="8397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="Applicationlist()[pri:2, instance:Login.Approvaltalukatahsildar7@60f00693]" started-at="2025-03-06T12:41:57 IST" name="Applicationlist" finished-at="2025-03-06T12:42:18 IST" duration-ms="21603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applicationlist -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.Approvaltalukatahsildar7@60f00693]" started-at="2025-03-06T12:42:18 IST" name="teardown" finished-at="2025-03-06T12:42:19 IST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Login.Approvaltalukatahsildar7 -->
       <class name="Login.ApprovalJRClerk4">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerk4@6f53b8a]" started-at="2025-02-27T16:45:29 IST" name="setup" finished-at="2025-02-27T16:45:31 IST" duration-ms="2170" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.ApprovalJRClerk4@7b4c50bc]" started-at="2025-03-06T12:39:43 IST" name="setup" finished-at="2025-03-06T12:39:44 IST" duration-ms="1354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerk4@6f53b8a]" started-at="2025-02-27T16:45:31 IST" name="testLogin" finished-at="2025-02-27T16:45:40 IST" duration-ms="9463" status="PASS">
+        <test-method signature="testLogin()[pri:1, instance:Login.ApprovalJRClerk4@7b4c50bc]" started-at="2025-03-06T12:39:44 IST" name="testLogin" finished-at="2025-03-06T12:39:54 IST" duration-ms="10306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerk4@6f53b8a]" started-at="2025-02-27T16:45:40 IST" name="Applicationlist" finished-at="2025-02-27T16:45:53 IST" duration-ms="12815" status="FAIL">
+        <test-method signature="Applicationlist()[pri:2, instance:Login.ApprovalJRClerk4@7b4c50bc]" started-at="2025-03-06T12:39:54 IST" name="Applicationlist" finished-at="2025-03-06T12:40:13 IST" duration-ms="18975" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8422a3f4f85c0be43fbefaf504ecc91, switchToWindow {handle=EC4780B4B6DD66437B4AACCA05A18EEC}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63492}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63492/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8422a3f4f85c0be43fbefaf504ecc91]]>
+Command: [29607730459e93da1ef20cf4fd9435b9, switchToWindow {handle=43856AC57AE6B1AB88DF734F23C92389}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56575/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29607730459e93da1ef20cf4fd9435b9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8422a3f4f85c0be43fbefaf504ecc91, switchToWindow {handle=EC4780B4B6DD66437B4AACCA05A18EEC}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63492}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63492/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8422a3f4f85c0be43fbefaf504ecc91
+Command: [29607730459e93da1ef20cf4fd9435b9, switchToWindow {handle=43856AC57AE6B1AB88DF734F23C92389}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56575/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29607730459e93da1ef20cf4fd9435b9
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -832,32 +497,32 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-at Login.ApprovalJRClerk4.Applicationlist(ApprovalJRClerk4.java:95)
+at Login.ApprovalJRClerk4.Applicationlist(ApprovalJRClerk4.java:96)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -867,7 +532,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applicationlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerk4@6f53b8a]" started-at="2025-02-27T16:45:53 IST" name="teardown" finished-at="2025-02-27T16:45:53 IST" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.ApprovalJRClerk4@7b4c50bc]" started-at="2025-03-06T12:40:13 IST" name="teardown" finished-at="2025-03-06T12:40:14 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

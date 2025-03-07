@@ -156,7 +156,7 @@ public class SignUp {
 			driver.findElement(By.xpath("//input[@formcontrolname='answer']")).sendKeys("USEforland");
 			js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.xpath("//*[@id=\"main-box\"]/div/div/div/form/div[4]/button[2]/span[2]")));
 			driver.findElement(By.xpath("//*[@id=\"main-box\"]/div/div/div/form/div[4]/button[2]/span[2]")).click();
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 			//driver.navigate().refresh();
 
 		}
@@ -311,7 +311,7 @@ public class SignUp {
 	public void tearDown() throws InterruptedException {
 		// Close the browser
 		if (driver != null) {
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 			driver.quit();
 		}
 	}

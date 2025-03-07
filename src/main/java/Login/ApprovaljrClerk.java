@@ -50,6 +50,7 @@ public void testLogin() throws InterruptedException {
 public void Applicationlist() throws InterruptedException
 {	// click on Application list 
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[normalize-space()='Application List']")).click();
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("/html/body/app-root/app-secure/div/div[2]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[3]/div/button[2]/span[3]")).click();
@@ -98,7 +99,7 @@ public void Applicationlist() throws InterruptedException
 	Thread.sleep(2000);
 	WebElement dn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-mdc-dialog-0\"]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2]")));
 	js.executeScript("arguments[0].click();", dn);
-	Thread.sleep(4000);
+	Thread.sleep(3000);
 }
 @AfterClass            
 public void teardown() {

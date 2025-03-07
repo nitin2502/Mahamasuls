@@ -30,6 +30,7 @@ public void setup() {
 @Test(priority=1)
 public void testLogin() throws InterruptedException {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	Thread.sleep(1000);
 	WebElement usernameField = driver.findElement(By.xpath("//input[@placeholder='Username']"));
 	usernameField.sendKeys("9696969696");
 	WebElement passwordField = driver.findElement(By.xpath("//input[@placeholder='Password']"));
@@ -50,6 +51,7 @@ public void testLogin() throws InterruptedException {
 public void Applicationlist() throws InterruptedException
 {	// click on Application list 
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[normalize-space()='Application List']")).click();
 	Thread.sleep(4000);
 	driver.findElement(By.xpath("/html/body/app-root/app-secure/div/div[2]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[3]/div/button[2]/span[3]")).click();
@@ -74,10 +76,10 @@ public void Applicationlist() throws InterruptedException
 		WebElement options = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-option-20\"]/span")));
 		js.executeScript("arguments[0].click();", options);
 		Thread.sleep(1000);
-	WebElement elementd = driver.findElement(By.xpath("//input[@formcontrolname='remark']"));
-	js.executeScript("arguments[0].click();", elementd);
-	elementd.sendKeys("All Applicant document details filled");
-	Thread.sleep(1000);
+		WebElement elementd = driver.findElement(By.xpath("//input[@formcontrolname='remark']"));
+		js.executeScript("arguments[0].click();", elementd);
+		elementd.sendKeys("All Applicant document details filled");
+		Thread.sleep(1000);
 	
 	// click to submit
 	WebElement button  = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-tab-content-0-0\"]/div/div/div[10]/div/form/div/div[5]/button/span[2]")));

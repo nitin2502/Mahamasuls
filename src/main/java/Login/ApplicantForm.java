@@ -91,7 +91,7 @@ public class ApplicantForm {
 	{  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	JavascriptExecutor js;
 	js = (JavascriptExecutor) driver;
-	driver.findElement(By.xpath("//input[@formcontrolname='applicantName']")).sendKeys("Ganesh kale");
+	driver.findElement(By.xpath("//input[@formcontrolname='applicantName']")).sendKeys("Ganesh S kale");
 
 	driver.findElement(By.xpath("//input[@formcontrolname='m_ApplicantName']")).sendKeys("गणेश काळे");
 
@@ -125,7 +125,7 @@ public class ApplicantForm {
 	   // Generate a random survey number
     Random rand = new Random();
     int surveyNumber = rand.nextInt(100) + 1; // Generates a number between 1 and 100
-    String surveyNumberStr = "607/" + surveyNumber + "BDD";
+    String surveyNumberStr = "14/" + surveyNumber + "DR";
 
     // Use the random survey number
     driver.findElement(By.xpath("//input[@formcontrolname='surveyNo']")).sendKeys(surveyNumberStr);

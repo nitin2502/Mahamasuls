@@ -16,9 +16,10 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 public class ApprovalSrClerk6
 {	WebDriver driver;
+
 @BeforeClass
 public void setup() {
-	//Need to creat a new application
+
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
 	// Manage browser settings
@@ -50,6 +51,7 @@ public void testLogin() throws InterruptedException {
 public void Applicationlist() throws InterruptedException
 {	// click on Application list 
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[normalize-space()='Application List']")).click();
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("/html/body/app-root/app-secure/div/div[2]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[3]/div/button[2]/span[3]")).click();

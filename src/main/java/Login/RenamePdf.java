@@ -1,19 +1,27 @@
-package logins;
+package Login;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class RenamePDFUsingExcel {
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class RenamePdf {
 
     private static ExtentReports extentReports;
 
@@ -27,8 +35,8 @@ public class RenamePDFUsingExcel {
 
         try {
             // Path to Excel file and folder containing the PDFs
-            String excelFilePath = "C:\\Users\\niting\\eclipse-workspace\\OsmanabadZp\\target\\excel\\DataGD.xlsx";
-            String pdfFolderPath = "C:\\Users\\niting\\Downloads\\DATA\\"; // Add a trailing backslash
+            String excelFilePath = "C:\\Users\\niting\\Downloads\\Gadchirolis.xlsx\\";
+            String pdfFolderPath = "D:\\IFR\\Sironcha\\"; // Add a trailing backslash
 
             // Load the Excel file and read the name data
             FileInputStream fileInputStream = new FileInputStream(excelFilePath);
@@ -37,7 +45,7 @@ public class RenamePDFUsingExcel {
 
             // Initialize a counter for successfully renamed files
             int renamedFileCount = 0;
-
+            System.out.println(renamedFileCount);
             for (Row row : sheet) {
                 Cell pdfOldNameCell = row.getCell(0);  // Assuming old PDF names are in column A
                 Cell pdfNewNameCell = row.getCell(1);  // Assuming new PDF names are in column B
@@ -98,7 +106,6 @@ public class RenamePDFUsingExcel {
             System.out.println("File not found: " + oldFilePath);
             test.log(Status.WARNING, "File not found: " + oldFilePath);
             return false; 
-            
         }
     }
-}// File not
+}

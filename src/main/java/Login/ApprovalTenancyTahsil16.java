@@ -30,6 +30,7 @@ public void setup() {
 @Test(priority=1)
 public void testLogin() throws InterruptedException {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	Thread.sleep(3000);
 	WebElement usernameField = driver.findElement(By.xpath("//input[@placeholder='Username']"));
 	usernameField.sendKeys("9696969696");
 	WebElement passwordField = driver.findElement(By.xpath("//input[@placeholder='Password']"));

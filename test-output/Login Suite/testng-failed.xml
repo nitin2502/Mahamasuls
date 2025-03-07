@@ -3,27 +3,6 @@
 <suite name="Failed suite [Login Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Login Tests(failed)">
     <classes>
-      <class name="Login.ApprovaljrClerk">
-        <methods>
-          <include name="teardown"/>
-          <include name="Applicationlist"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Login.ApprovaljrClerk -->
-      <class name="Login.ApprovalDeputyCollctr12">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="Applicationlist"/>
-        </methods>
-      </class> <!-- Login.ApprovalDeputyCollctr12 -->
-      <class name="Login.ApprovalTahsildar">
-        <methods>
-          <include name="teardown"/>
-          <include name="Applicationlist"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Login.ApprovalTahsildar -->
       <class name="Login.ApprovalJRClerk4">
         <methods>
           <include name="teardown"/>
@@ -31,6 +10,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- Login.ApprovalJRClerk4 -->
+      <class name="Login.ApprovalTahsildar">
+        <methods>
+          <include name="teardown"/>
+          <include name="Applicationlist"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Login.ApprovalTahsildar -->
       <class name="Login.ApprovalsrClerk">
         <methods>
           <include name="teardown"/>
@@ -38,28 +24,6 @@
           <include name="Applicationlist"/>
         </methods>
       </class> <!-- Login.ApprovalsrClerk -->
-      <class name="Login.ApprovalTenencyTahsil11">
-        <methods>
-          <include name="teardown"/>
-          <include name="Applicationlist"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Login.ApprovalTenencyTahsil11 -->
-      <class name="Login.ApprovalJRClerk14">
-        <methods>
-          <include name="teardown"/>
-          <include name="Applicationlist"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Login.ApprovalJRClerk14 -->
-      <class name="Login.ApprovalAdditionalCollctr13">
-        <methods>
-          <include name="testLogin"/>
-          <include name="Applicationlist"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Login.ApprovalAdditionalCollctr13 -->
     </classes>
   </test> <!-- Login Tests(failed) -->
 </suite> <!-- Failed suite [Login Suite] -->
