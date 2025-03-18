@@ -74,14 +74,13 @@ public void Applicationlist() throws InterruptedException
 	Thread.sleep(1000);
 	
 	// click to submit
-	WebElement button  = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-tab-content-0-0\"]/div/div/div[10]/div/form/div/div[4]/button/span[2]")));
-	js.executeScript("arguments[0].click();", button);
-	Thread.sleep(2000);
+//	WebElement button  = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-tab-content-0-0\"]/div/div/div[10]/div/form/div/div[4]/button/span[2]")));
+//	js.executeScript("arguments[0].click();", button);	Thread.sleep(2000);
 	WebElement dn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-mdc-dialog-0\"]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2]")));
 	js.executeScript("arguments[0].click();", dn);
 	Thread.sleep(4000);
 }
-@AfterClass            
+//@AfterClass            
 public void teardown() {
 	driver.quit();
 }

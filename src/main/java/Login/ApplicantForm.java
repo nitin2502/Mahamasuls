@@ -55,7 +55,7 @@ public class ApplicantForm {
 	Thread.sleep(1000);
 	driver.findElement(By.xpath("//a[@href='/tribal-to-tribal-land-sale']")).click();
 	Thread.sleep(1000);
-	driver.findElement(By.xpath("//input[@maxlength='10']")).sendKeys("6589639999");
+	driver.findElement(By.xpath("//input[@maxlength='10']")).sendKeys("6455666999");
 	Thread.sleep(1000);
 	driver.findElement(By.xpath("//span[normalize-space()='Verify']")).click();
 	Thread.sleep(2000);
@@ -64,7 +64,7 @@ public class ApplicantForm {
 
 	// Open a new window
 	JavascriptExecutor js = (JavascriptExecutor) driver;
-	js.executeScript("window.open('https://mahamahasul-api.mahamining.com/MahaMahasul/api/LoginOtp/Get-OTP-By-Mobile?MobileNo=6589639999');");
+	js.executeScript("window.open('https://mahamahasul-api.mahamining.com/MahaMahasul/api/LoginOtp/Get-OTP-By-Mobile?MobileNo=6455666999');");
 	Thread.sleep(2000);
 
 	// Switch to the new window
@@ -91,11 +91,11 @@ public class ApplicantForm {
 	{  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	JavascriptExecutor js;
 	js = (JavascriptExecutor) driver;
-	driver.findElement(By.xpath("//input[@formcontrolname='applicantName']")).sendKeys("Ganesh S kale");
+	driver.findElement(By.xpath("//input[@formcontrolname='applicantName']")).sendKeys("Shripad Nale ");
 
-	driver.findElement(By.xpath("//input[@formcontrolname='m_ApplicantName']")).sendKeys("गणेश काळे");
+	driver.findElement(By.xpath("//input[@formcontrolname='m_ApplicantName']")).sendKeys("श्रीपाद नाळे");
 
-	driver.findElement(By.id("mat-mdc-checkbox-1-input")).sendKeys("गणेश काळे");
+	driver.findElement(By.id("mat-mdc-checkbox-1-input")).sendKeys("श्रीपाद नाळे");
 
 	driver.findElement(By.xpath("//input[@formcontrolname='emailID']")).sendKeys("ganesh045@gmail.com");
 
@@ -189,6 +189,7 @@ public class ApplicantForm {
 			WebElement dn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-mdc-dialog-1\"]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2]")));
 			js.executeScript("arguments[0].click();", dn);
 			Thread.sleep(3000);
+			System.out.println("Application form filled successfully ");
 	}
 
 

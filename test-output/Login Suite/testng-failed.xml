@@ -17,6 +17,26 @@
           <include name="setup"/>
         </methods>
       </class> <!-- Login.ApprovalTahsildar -->
+      <class name="Login.ApprovalAdditionalCollctr13">
+        <methods>
+          <include name="Applicationlist"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Login.ApprovalAdditionalCollctr13 -->
+      <class name="Login.ApprovalDeputyCollctr12">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- Login.ApprovalDeputyCollctr12 -->
+      <class name="Login.ApprovalSrClerk6">
+        <methods>
+          <include name="testLogin"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Login.ApprovalSrClerk6 -->
       <class name="Login.ApprovalsrClerk">
         <methods>
           <include name="teardown"/>
@@ -24,6 +44,14 @@
           <include name="Applicationlist"/>
         </methods>
       </class> <!-- Login.ApprovalsrClerk -->
+      <class name="Login.ApplicantForm">
+        <methods>
+          <include name="tribalapplicatin"/>
+          <include name="Uploaddocument"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Login.ApplicantForm -->
     </classes>
   </test> <!-- Login Tests(failed) -->
 </suite> <!-- Failed suite [Login Suite] -->

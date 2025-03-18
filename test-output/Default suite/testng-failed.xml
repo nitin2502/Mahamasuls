@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.ApprovalJRClerk14">
+      <class name="ResendFlow.RejectionApplicationAdditionalCollctr13">
         <methods>
-          <include name="Applicationlist"/>
           <include name="setup"/>
+          <include name="Applicationlist"/>
         </methods>
-      </class> <!-- Login.ApprovalJRClerk14 -->
+      </class> <!-- ResendFlow.RejectionApplicationAdditionalCollctr13 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

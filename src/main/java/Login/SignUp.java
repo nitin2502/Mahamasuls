@@ -10,8 +10,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.github.javafaker.Faker;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 public class SignUp {
 	
@@ -303,6 +301,7 @@ public class SignUp {
 		js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.xpath("//*[@id=\"main-box\"]/div/div/div/form/div[4]/button[2]/span[2]")));
 		driver.findElement(By.xpath("//*[@id=\"main-box\"]/div/div/div/form/div[4]/button[2]/span[2]")).click();
 		Thread.sleep(4000);
+		System.out.println("Sign up successfully completed");
 
 	} 
 

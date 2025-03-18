@@ -100,9 +100,11 @@ public void Applicationlist() throws InterruptedException
 	WebElement dn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-mdc-dialog-1\"]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2]")));
 	js.executeScript("arguments[0].click();", dn);
 	Thread.sleep(4000);
+	System.out.println("Approval JR clerk4");
 }
 @AfterClass            
 public void teardown() {
+	
 	driver.quit();
 }
 }

@@ -15,12 +15,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
 public class RenamePdf {
 
     private static ExtentReports extentReports;
@@ -35,8 +29,8 @@ public class RenamePdf {
 
         try {
             // Path to Excel file and folder containing the PDFs
-            String excelFilePath = "C:\\Users\\niting\\Downloads\\Gadchirolis.xlsx\\";
-            String pdfFolderPath = "D:\\IFR\\Sironcha\\"; // Add a trailing backslash
+            String excelFilePath = "C:\\Users\\niting\\Downloads\\CFR Claim List.xlsx\\";
+            String pdfFolderPath = "D:\\CFR-\\Sironcha"; // Add a trailing backslash
 
             // Load the Excel file and read the name data
             FileInputStream fileInputStream = new FileInputStream(excelFilePath);
@@ -45,7 +39,7 @@ public class RenamePdf {
 
             // Initialize a counter for successfully renamed files
             int renamedFileCount = 0;
-            System.out.println(renamedFileCount);
+            
             for (Row row : sheet) {
                 Cell pdfOldNameCell = row.getCell(0);  // Assuming old PDF names are in column A
                 Cell pdfNewNameCell = row.getCell(1);  // Assuming new PDF names are in column B
@@ -61,8 +55,8 @@ public class RenamePdf {
                     if (isRenamed) {
                         renamedFileCount++;
                     }
-                }
-            }
+                    }
+                System.out.println(renamedFileCount);    }
 
             // Close resources
             workbook.close();
@@ -70,7 +64,7 @@ public class RenamePdf {
 
             // Log success message
             test.pass("Successfully renamed " + renamedFileCount + " files.");
-
+           
         } catch (Exception e) {
             // Log any exceptions with stack trace
             test.fail(e.getMessage());  // Consider adding screenshot capture if needed
@@ -107,5 +101,7 @@ public class RenamePdf {
             test.log(Status.WARNING, "File not found: " + oldFilePath);
             return false; 
         }
+        
     }
+    
 }

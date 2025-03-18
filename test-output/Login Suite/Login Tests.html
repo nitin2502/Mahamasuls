@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Login Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>36/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 06 12:36:32 IST 2025</td>
+<td>Started on:</td><td>Thu Mar 13 18:40:57 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>673 seconds (673187 ms)</td>
+<tr><td>Total time:</td><td>546 seconds (546153 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,46 +76,27 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Login.ApprovalsrClerk.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalsrClerk</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+<td title='Login.ApplicantForm.Uploaddocument()'><b>Uploaddocument</b><br>Test class: Login.ApplicantForm</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;cdk-step-content-0-1&quot;]/div[1]/form/div/div[4]/div/button[1]/span[2] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2bfb1982c0a3b07de9f63426c1b79ce4, switchToWindow {handle=F6C8C77FECE94FDB90D4C897781BCBA1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bfb1982c0a3b07de9f63426c1b79ce4
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-	at Login.ApprovalsrClerk.Applicationlist(ApprovalsrClerk.java:96)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61909/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b2f9757c237f2f945dede19a8e4c00
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at Login.ApplicantForm.Uploaddocument(ApplicantForm.java:173)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace931003277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace931003277'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1262638455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1262638455'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;cdk-step-content-0-1&quot;]/div[1]/form/div/div[4]/div/button[1]/span[2] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2bfb1982c0a3b07de9f63426c1b79ce4, switchToWindow {handle=F6C8C77FECE94FDB90D4C897781BCBA1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56502/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bfb1982c0a3b07de9f63426c1b79ce4
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-	at Login.ApprovalsrClerk.Applicationlist(ApprovalsrClerk.java:96)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61909/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b2f9757c237f2f945dede19a8e4c00
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at Login.ApplicantForm.Uploaddocument(ApplicantForm.java:173)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -145,89 +126,17 @@ Session ID: 2bfb1982c0a3b07de9f63426c1b79ce4
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>15</td>
-<td>Login.ApprovalsrClerk@25df00a0</td></tr>
-<tr>
-<td title='Login.ApprovalTahsildar.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalTahsildar</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b424e8c4567fa20fbbab689fa668eeff, switchToWindow {handle=14AC5963DAC360CB6DDEB28D46E2DA3E}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56536/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b424e8c4567fa20fbbab689fa668eeff
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-	at Login.ApprovalTahsildar.Applicationlist(ApprovalTahsildar.java:96)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1155337528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1155337528'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b424e8c4567fa20fbbab689fa668eeff, switchToWindow {handle=14AC5963DAC360CB6DDEB28D46E2DA3E}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56536/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b424e8c4567fa20fbbab689fa668eeff
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
-	at Login.ApprovalTahsildar.Applicationlist(ApprovalTahsildar.java:96)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>19</td>
-<td>Login.ApprovalTahsildar@4d15107f</td></tr>
+<td>12</td>
+<td>Login.ApplicantForm@dc7df28</td></tr>
 <tr>
 <td title='Login.ApprovalJRClerk4.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalJRClerk4</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29607730459e93da1ef20cf4fd9435b9, switchToWindow {handle=43856AC57AE6B1AB88DF734F23C92389}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56575/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29607730459e93da1ef20cf4fd9435b9
+Command: [bb0733a5aec454a2212888b9a33b2b6b, switchToWindow {handle=3D0B45BBF0B692D72CF9B1BAD05F42C5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62031/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb0733a5aec454a2212888b9a33b2b6b
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -238,14 +147,14 @@ Session ID: 29607730459e93da1ef20cf4fd9435b9
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
 	at Login.ApprovalJRClerk4.Applicationlist(ApprovalJRClerk4.java:96)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1417325106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1417325106'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1851741304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1851741304'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29607730459e93da1ef20cf4fd9435b9, switchToWindow {handle=43856AC57AE6B1AB88DF734F23C92389}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56575/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29607730459e93da1ef20cf4fd9435b9
+Command: [bb0733a5aec454a2212888b9a33b2b6b, switchToWindow {handle=3D0B45BBF0B692D72CF9B1BAD05F42C5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62031/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb0733a5aec454a2212888b9a33b2b6b
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -260,6 +169,122 @@ Session ID: 29607730459e93da1ef20cf4fd9435b9
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
 	at Login.ApprovalJRClerk4.Applicationlist(ApprovalJRClerk4.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>17</td>
+<td>Login.ApprovalJRClerk4@7e990ed7</td></tr>
+<tr>
+<td title='Login.ApprovalSrClerk6.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalSrClerk6</td>
+<td><div><pre>java.lang.AssertionError: Login Failed! expected [https://mahamahsul-pune.mahamining.com/dashboard] but found [https://mahamahsul-pune.mahamining.com/login]
+	at Login.ApprovalSrClerk6.testLogin(ApprovalSrClerk6.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace282658241", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace282658241'><pre>java.lang.AssertionError: Login Failed! expected [https://mahamahsul-pune.mahamining.com/dashboard] but found [https://mahamahsul-pune.mahamining.com/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at Login.ApprovalSrClerk6.testLogin(ApprovalSrClerk6.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>Login.ApprovalSrClerk6@25df00a0</td></tr>
+<tr>
+<td title='Login.ApprovalsrClerk.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalsrClerk</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ab84cdacca6bfa4ad5a0c0f6623baea, switchToWindow {handle=3EBD72A33C280AA76BA26039ED1DE5B1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61972/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ab84cdacca6bfa4ad5a0c0f6623baea
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
+	at Login.ApprovalsrClerk.Applicationlist(ApprovalsrClerk.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace71782942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace71782942'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ab84cdacca6bfa4ad5a0c0f6623baea, switchToWindow {handle=3EBD72A33C280AA76BA26039ED1DE5B1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61972/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ab84cdacca6bfa4ad5a0c0f6623baea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
+	at Login.ApprovalsrClerk.Applicationlist(ApprovalsrClerk.java:98)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -290,7 +315,254 @@ Session ID: 29607730459e93da1ef20cf4fd9435b9
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>18</td>
-<td>Login.ApprovalJRClerk4@7b4c50bc</td></tr>
+<td>Login.ApprovalsrClerk@69c81773</td></tr>
+<tr>
+<td title='Login.ApprovalDeputyCollctr12.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalDeputyCollctr12</td>
+<td><div><pre>java.lang.AssertionError: Login Failed! expected [https://mahamahsul-pune.mahamining.com/dashboard] but found [https://mahamahsul-pune.mahamining.com/login]
+	at Login.ApprovalDeputyCollctr12.testLogin(ApprovalDeputyCollctr12.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157932269", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1157932269'><pre>java.lang.AssertionError: Login Failed! expected [https://mahamahsul-pune.mahamining.com/dashboard] but found [https://mahamahsul-pune.mahamining.com/login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at Login.ApprovalDeputyCollctr12.testLogin(ApprovalDeputyCollctr12.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>Login.ApprovalDeputyCollctr12@79207381</td></tr>
+<tr>
+<td title='Login.ApprovalAdditionalCollctr13.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalAdditionalCollctr13</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;mat-mdc-dialog-0&quot;]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62315/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18e512c6e11e6c77a9cd3be7f6b7f428
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at Login.ApprovalAdditionalCollctr13.Applicationlist(ApprovalAdditionalCollctr13.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace168549346", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace168549346'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;mat-mdc-dialog-0&quot;]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62315/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18e512c6e11e6c77a9cd3be7f6b7f428
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at Login.ApprovalAdditionalCollctr13.Applicationlist(ApprovalAdditionalCollctr13.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>24</td>
+<td>Login.ApprovalAdditionalCollctr13@491b9b8</td></tr>
+<tr>
+<td title='Login.ApprovalTahsildar.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalTahsildar</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70c60cdd14986d3fa5dc4761579e2c30, switchToWindow {handle=63CC1082060C104A729EF2BBA0AB3576}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62001/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70c60cdd14986d3fa5dc4761579e2c30
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
+	at Login.ApprovalTahsildar.Applicationlist(ApprovalTahsildar.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace115869666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace115869666'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70c60cdd14986d3fa5dc4761579e2c30, switchToWindow {handle=63CC1082060C104A729EF2BBA0AB3576}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62001/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70c60cdd14986d3fa5dc4761579e2c30
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1147)
+	at Login.ApprovalTahsildar.Applicationlist(ApprovalTahsildar.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>16</td>
+<td>Login.ApprovalTahsildar@4d14b6c2</td></tr>
+<tr>
+<td title='Login.ApplicantForm.tribalapplicatin()'><b>tribalapplicatin</b><br>Test class: Login.ApplicantForm</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 685)
+  (Session info: chrome=134.0.6998.89)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b2f9757c237f2f945dede19a8e4c00, clickElement {id=f.02CC1F04A374A0590BF72081DAEE1F01.d.7382F7BDBA9C390774FC43D73FE7B619.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61909/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (22b2f9757c237f2f945dede19a8e4c00)] -&gt; xpath: //*[@id=&quot;mat-mdc-form-field-label-36&quot;]/mat-label]
+Session ID: 22b2f9757c237f2f945dede19a8e4c00
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Login.ApplicantForm.tribalapplicatin(ApplicantForm.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1515282013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1515282013'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 685)
+  (Session info: chrome=134.0.6998.89)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b2f9757c237f2f945dede19a8e4c00, clickElement {id=f.02CC1F04A374A0590BF72081DAEE1F01.d.7382F7BDBA9C390774FC43D73FE7B619.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\niting\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61909/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (22b2f9757c237f2f945dede19a8e4c00)] -&gt; xpath: //*[@id=&quot;mat-mdc-form-field-label-36&quot;]/mat-label]
+Session ID: 22b2f9757c237f2f945dede19a8e4c00
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Login.ApplicantForm.tribalapplicatin(ApplicantForm.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>11</td>
+<td>Login.ApplicantForm@dc7df28</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -301,185 +573,120 @@ Session ID: 29607730459e93da1ef20cf4fd9435b9
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Login.ApprovalTenancyTahsil16.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTenancyTahsil16</td>
-<td></td>
-<td>11</td>
-<td>Login.ApprovalTenancyTahsil16@16150369</td></tr>
-<tr>
-<td title='Login.ApprovalAdditionalCollctr13.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalAdditionalCollctr13</td>
-<td></td>
-<td>19</td>
-<td>Login.ApprovalAdditionalCollctr13@97e93f1</td></tr>
-<tr>
-<td title='Login.ApprovalSRClerkTenency10.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalSRClerkTenency10</td>
-<td></td>
-<td>19</td>
-<td>Login.ApprovalSRClerkTenency10@1a4927d6</td></tr>
-<tr>
-<td title='Login.ApprovalSRClerkTenancy15.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalSRClerkTenancy15</td>
-<td></td>
-<td>20</td>
-<td>Login.ApprovalSRClerkTenancy15@4b520ea8</td></tr>
-<tr>
-<td title='Login.ApplicantForm.Uploaddocument()'><b>Uploaddocument</b><br>Test class: Login.ApplicantForm</td>
-<td></td>
-<td>11</td>
-<td>Login.ApplicantForm@7e990ed7</td></tr>
-<tr>
-<td title='Login.ApprovalTenancyTahsil8.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTenancyTahsil8</td>
-<td></td>
-<td>8</td>
-<td>Login.ApprovalTenancyTahsil8@79207381</td></tr>
-<tr>
-<td title='Login.ApprovalJRClerk9.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalJRClerk9</td>
-<td></td>
-<td>22</td>
-<td>Login.ApprovalJRClerk9@491b9b8</td></tr>
-<tr>
-<td title='Login.ApprovalDeputyCollctr12.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalDeputyCollctr12</td>
-<td></td>
-<td>9</td>
-<td>Login.ApprovalDeputyCollctr12@aba625</td></tr>
-<tr>
-<td title='Login.ApprovalJRClerkTaluka5.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerkTaluka5</td>
+<td title='Login.ApprovalsrClerk.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalsrClerk</td>
 <td></td>
 <td>10</td>
-<td>Login.ApprovalJRClerkTaluka5@5884a914</td></tr>
-<tr>
-<td title='Login.ApprovalRDC17.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalRDC17</td>
-<td></td>
-<td>11</td>
-<td>Login.ApprovalRDC17@6b09fb41</td></tr>
+<td>Login.ApprovalsrClerk@69c81773</td></tr>
 <tr>
 <td title='Login.ApplicantForm.testLogin()'><b>testLogin</b><br>Test class: Login.ApplicantForm</td>
 <td></td>
-<td>8</td>
-<td>Login.ApplicantForm@7e990ed7</td></tr>
-<tr>
-<td title='Login.ApprovalRDC17.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalRDC17</td>
-<td></td>
-<td>16</td>
-<td>Login.ApprovalRDC17@6b09fb41</td></tr>
-<tr>
-<td title='Login.ApprovalTenencyTahsil11.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTenencyTahsil11</td>
-<td></td>
-<td>9</td>
-<td>Login.ApprovalTenencyTahsil11@7a6d7e92</td></tr>
-<tr>
-<td title='Login.ApprovalTenencyTahsil11.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalTenencyTahsil11</td>
-<td></td>
-<td>22</td>
-<td>Login.ApprovalTenencyTahsil11@7a6d7e92</td></tr>
-<tr>
-<td title='Login.ApprovalJRClerk14.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalJRClerk14</td>
-<td></td>
-<td>24</td>
-<td>Login.ApprovalJRClerk14@5a5a729f</td></tr>
+<td>7</td>
+<td>Login.ApplicantForm@dc7df28</td></tr>
 <tr>
 <td title='Login.ApprovaljrClerk.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovaljrClerk</td>
 <td></td>
-<td>10</td>
-<td>Login.ApprovaljrClerk@c05fddc</td></tr>
-<tr>
-<td title='Login.ApprovalJRClerk9.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerk9</td>
-<td></td>
 <td>9</td>
-<td>Login.ApprovalJRClerk9@491b9b8</td></tr>
-<tr>
-<td title='Login.Approvaltalukatahsildar7.testLogin()'><b>testLogin</b><br>Test class: Login.Approvaltalukatahsildar7</td>
-<td></td>
-<td>8</td>
-<td>Login.Approvaltalukatahsildar7@60f00693</td></tr>
-<tr>
-<td title='Login.ApprovaljrClerk.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovaljrClerk</td>
-<td></td>
-<td>21</td>
-<td>Login.ApprovaljrClerk@c05fddc</td></tr>
-<tr>
-<td title='Login.ApprovalJRClerk4.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerk4</td>
-<td></td>
-<td>10</td>
-<td>Login.ApprovalJRClerk4@7b4c50bc</td></tr>
-<tr>
-<td title='Login.ApprovalSrClerk6.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalSrClerk6</td>
-<td></td>
-<td>9</td>
-<td>Login.ApprovalSrClerk6@50378a4</td></tr>
-<tr>
-<td title='Login.ApplicantForm.testfillapplication()'><b>testfillapplication</b><br>Test class: Login.ApplicantForm</td>
-<td></td>
-<td>15</td>
-<td>Login.ApplicantForm@7e990ed7</td></tr>
-<tr>
-<td title='Login.ApprovalSRClerkTenancy15.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalSRClerkTenancy15</td>
-<td></td>
-<td>8</td>
-<td>Login.ApprovalSRClerkTenancy15@4b520ea8</td></tr>
-<tr>
-<td title='Login.ApprovalSrClerk6.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalSrClerk6</td>
-<td></td>
-<td>19</td>
-<td>Login.ApprovalSrClerk6@50378a4</td></tr>
-<tr>
-<td title='Login.ApprovalTenancyTahsil16.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalTenancyTahsil16</td>
-<td></td>
-<td>18</td>
-<td>Login.ApprovalTenancyTahsil16@16150369</td></tr>
+<td>Login.ApprovaljrClerk@30f842ca</td></tr>
 <tr>
 <td title='Login.Approvaltalukatahsildar7.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.Approvaltalukatahsildar7</td>
 <td></td>
 <td>21</td>
-<td>Login.Approvaltalukatahsildar7@60f00693</td></tr>
+<td>Login.Approvaltalukatahsildar7@4d15107f</td></tr>
 <tr>
 <td title='Login.ApprovalTenancyTahsil8.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalTenancyTahsil8</td>
 <td></td>
-<td>20</td>
-<td>Login.ApprovalTenancyTahsil8@79207381</td></tr>
-<tr>
-<td title='Login.ApprovalAdditionalCollctr13.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalAdditionalCollctr13</td>
-<td></td>
-<td>9</td>
-<td>Login.ApprovalAdditionalCollctr13@97e93f1</td></tr>
-<tr>
-<td title='Login.ApprovalTahsildar.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTahsildar</td>
-<td></td>
-<td>9</td>
-<td>Login.ApprovalTahsildar@4d15107f</td></tr>
-<tr>
-<td title='Login.ApplicantForm.tribalapplicatin()'><b>tribalapplicatin</b><br>Test class: Login.ApplicantForm</td>
-<td></td>
-<td>18</td>
-<td>Login.ApplicantForm@7e990ed7</td></tr>
-<tr>
-<td title='Login.ApprovalsrClerk.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalsrClerk</td>
-<td></td>
-<td>10</td>
-<td>Login.ApprovalsrClerk@25df00a0</td></tr>
-<tr>
-<td title='Login.SignUp.testSignupFormIndividual()'><b>testSignupFormIndividual</b><br>Test class: Login.SignUp</td>
-<td></td>
-<td>19</td>
-<td>Login.SignUp@333d4a8c</td></tr>
-<tr>
-<td title='Login.ApprovalDeputyCollctr12.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalDeputyCollctr12</td>
-<td></td>
-<td>19</td>
-<td>Login.ApprovalDeputyCollctr12@aba625</td></tr>
-<tr>
-<td title='Login.ApprovalJRClerkTaluka5.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalJRClerkTaluka5</td>
-<td></td>
-<td>49</td>
-<td>Login.ApprovalJRClerkTaluka5@5884a914</td></tr>
+<td>21</td>
+<td>Login.ApprovalTenancyTahsil8@7b4c50bc</td></tr>
 <tr>
 <td title='Login.ApprovalSRClerkTenency10.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalSRClerkTenency10</td>
 <td></td>
 <td>8</td>
-<td>Login.ApprovalSRClerkTenency10@1a4927d6</td></tr>
+<td>Login.ApprovalSRClerkTenency10@50378a4</td></tr>
 <tr>
-<td title='Login.ApprovalJRClerk14.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerk14</td>
+<td title='Login.ApprovalDeputyCollctr12.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalDeputyCollctr12</td>
 <td></td>
-<td>11</td>
-<td>Login.ApprovalJRClerk14@5a5a729f</td></tr>
+<td>20</td>
+<td>Login.ApprovalDeputyCollctr12@79207381</td></tr>
+<tr>
+<td title='Login.ApprovalJRClerkTaluka5.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalJRClerkTaluka5</td>
+<td></td>
+<td>48</td>
+<td>Login.ApprovalJRClerkTaluka5@c05fddc</td></tr>
+<tr>
+<td title='Login.ApprovalJRClerk9.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalJRClerk9</td>
+<td></td>
+<td>23</td>
+<td>Login.ApprovalJRClerk9@5884a914</td></tr>
+<tr>
+<td title='Login.ApprovalTenancyTahsil8.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTenancyTahsil8</td>
+<td></td>
+<td>8</td>
+<td>Login.ApprovalTenancyTahsil8@7b4c50bc</td></tr>
+<tr>
+<td title='Login.ApprovalTahsildar.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTahsildar</td>
+<td></td>
+<td>9</td>
+<td>Login.ApprovalTahsildar@4d14b6c2</td></tr>
+<tr>
+<td title='Login.ApprovalAdditionalCollctr13.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalAdditionalCollctr13</td>
+<td></td>
+<td>8</td>
+<td>Login.ApprovalAdditionalCollctr13@491b9b8</td></tr>
+<tr>
+<td title='Login.ApprovaljrClerk.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovaljrClerk</td>
+<td></td>
+<td>21</td>
+<td>Login.ApprovaljrClerk@30f842ca</td></tr>
+<tr>
+<td title='Login.ApprovalJRClerk4.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerk4</td>
+<td></td>
+<td>9</td>
+<td>Login.ApprovalJRClerk4@7e990ed7</td></tr>
+<tr>
+<td title='Login.ApprovalSrClerk6.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalSrClerk6</td>
+<td></td>
+<td>20</td>
+<td>Login.ApprovalSrClerk6@25df00a0</td></tr>
+<tr>
+<td title='Login.ApplicantForm.testfillapplication()'><b>testfillapplication</b><br>Test class: Login.ApplicantForm</td>
+<td></td>
+<td>15</td>
+<td>Login.ApplicantForm@dc7df28</td></tr>
+<tr>
+<td title='Login.Approvaltalukatahsildar7.testLogin()'><b>testLogin</b><br>Test class: Login.Approvaltalukatahsildar7</td>
+<td></td>
+<td>8</td>
+<td>Login.Approvaltalukatahsildar7@4d15107f</td></tr>
+<tr>
+<td title='Login.ApprovalTenencyTahsil11.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalTenencyTahsil11</td>
+<td></td>
+<td>23</td>
+<td>Login.ApprovalTenencyTahsil11@60f00693</td></tr>
+<tr>
+<td title='Login.ApprovalJRClerk9.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerk9</td>
+<td></td>
+<td>9</td>
+<td>Login.ApprovalJRClerk9@5884a914</td></tr>
+<tr>
+<td title='Login.ApprovalTenencyTahsil11.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalTenencyTahsil11</td>
+<td></td>
+<td>9</td>
+<td>Login.ApprovalTenencyTahsil11@60f00693</td></tr>
+<tr>
+<td title='Login.ApprovalJRClerkTaluka5.testLogin()'><b>testLogin</b><br>Test class: Login.ApprovalJRClerkTaluka5</td>
+<td></td>
+<td>10</td>
+<td>Login.ApprovalJRClerkTaluka5@c05fddc</td></tr>
+<tr>
+<td title='Login.SignUp.testSignupFormIndividual()'><b>testSignupFormIndividual</b><br>Test class: Login.SignUp</td>
+<td></td>
+<td>19</td>
+<td>Login.SignUp@6e2829c7</td></tr>
+<tr>
+<td title='Login.ApprovalSRClerkTenency10.Applicationlist()'><b>Applicationlist</b><br>Test class: Login.ApprovalSRClerkTenency10</td>
+<td></td>
+<td>20</td>
+<td>Login.ApprovalSRClerkTenency10@50378a4</td></tr>
 </table><p>
 </body>
 </html>

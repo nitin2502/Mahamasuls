@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -18,14 +19,15 @@ public class ApprovalsrClerk
 {	WebDriver driver;
 @BeforeClass
 public void setup() {
-	//Need to creat a new application
-	WebDriverManager.chromedriver().setup();
-	driver = new ChromeDriver();
-	// Manage browser settings
-	driver.manage().window().maximize();
-	driver.manage().deleteAllCookies();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	driver.get("https://mahamahsul-pune.mahamining.com/login"); 
+	 ChromeOptions options = new ChromeOptions();
+	    options.addArguments("--allow-insecure-localhost");
+	    options.addArguments("--disable-web-security");
+	      driver = new ChromeDriver(options);
+	    // Manage browser settings
+	    driver.manage().window().maximize();
+	    driver.manage().deleteAllCookies();
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	    driver.get("https://mahamahsul-pune.mahamining.com/login");
 }
 @Test(priority=1)
 public void testLogin() throws InterruptedException {
@@ -100,6 +102,7 @@ public void Applicationlist() throws InterruptedException
 	WebElement dn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"mat-mdc-dialog-1\"]/div/div/app-confirmation-dialog-t1/mat-dialog-actions/div/button/span[2]")));
 	js.executeScript("arguments[0].click();", dn);
 	Thread.sleep(4000);
+	System.out.println("Approval done by sr clerk 2");
 }
 @AfterClass            
 public void teardown() {
