@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -18,14 +19,15 @@ public class ApprovalSRClerkTenancy15
 {	WebDriver driver;
 @BeforeClass
 public void setup() {
-	//Need to creat a new application
-	WebDriverManager.chromedriver().setup();
-	driver = new ChromeDriver();
-	// Manage browser settings
-	driver.manage().window().maximize();
-	driver.manage().deleteAllCookies();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	driver.get("https://mahamahsul-pune.mahamining.com/login"); 
+	ChromeOptions options = new ChromeOptions();
+    options.addArguments("--allow-insecure-localhost");
+    options.addArguments("--disable-web-security");
+      driver = new ChromeDriver(options);
+    // Manage browser settings
+    driver.manage().window().maximize();
+    driver.manage().deleteAllCookies();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    driver.get("https://mahamahsul-pune.mahamining.com/login");
 }
 @Test(priority=1)
 public void testLogin() throws InterruptedException {
@@ -53,7 +55,7 @@ public void Applicationlist() throws InterruptedException
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[normalize-space()='Application List']")).click();
 	Thread.sleep(4000);
-	driver.findElement(By.xpath("/html/body/app-root/app-secure/div/div[2]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[3]/div/button[2]/span[3]")).click();
+	driver.findElement(By.xpath("//*[@id=\"content\"]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[4]/div/button[2]/span[3]")).click();
 	Thread.sleep(2000);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

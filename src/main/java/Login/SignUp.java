@@ -12,10 +12,8 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 public class SignUp {
-	
-	WebDriver driver;
-	
-	@BeforeTest
+		WebDriver driver;
+		@BeforeTest
 	public void setUp() throws InterruptedException {
 		// Use WebDriverManager to set up ChromeDriver
 		WebDriverManager.chromedriver().setup();
@@ -85,7 +83,7 @@ public class SignUp {
 			driver.findElement(By.xpath("//*[@id=\"mat-mdc-form-field-label-8\"]/mat-label")).click();
 			Thread.sleep(2000);
 
-			driver.findElement(By.xpath("//*[@id=\"mat-datepicker-0\"]/div/mat-month-view/table/tbody/tr[1]/td[2]/button/span[1]")).click();
+			driver.findElement(By.xpath("//*[@id=\"mat-datepicker-0\"]/div/mat-month-view/table/tbody/tr[2]/td[1]/button/span[1]")).click();
 			Thread.sleep(2000);
 
 			driver.findElement(By.xpath("//input[@formcontrolname='email']")).sendKeys("sandesgh0525@gmail.com");
@@ -306,7 +304,7 @@ public class SignUp {
 	} 
 
 
-		@AfterClass
+	@AfterClass
 	public void tearDown() throws InterruptedException {
 		// Close the browser
 		if (driver != null) {

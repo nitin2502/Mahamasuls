@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ResendFlow.RejectionApplicationAdditionalCollctr13">
+      <class name="Dashboard.APITest">
         <methods>
-          <include name="setup"/>
-          <include name="Applicationlist"/>
+          <include name="launchBrowser"/>
+          <include name="openAppAndLogin"/>
         </methods>
-      </class> <!-- ResendFlow.RejectionApplicationAdditionalCollctr13 -->
+      </class> <!-- Dashboard.APITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

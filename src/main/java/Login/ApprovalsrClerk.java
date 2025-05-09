@@ -55,7 +55,7 @@ public void Applicationlist() throws InterruptedException
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[normalize-space()='Application List']")).click();
 	Thread.sleep(3000);
-	driver.findElement(By.xpath("/html/body/app-root/app-secure/div/div[2]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[3]/div/button[2]/span[3]")).click();
+	driver.findElement(By.xpath("//*[@id=\"content\"]/div/app-application/mat-card/mat-card-content/ul/li[1]/div[1]/div[4]/div/button[2]/span[3]")).click();
 	Thread.sleep(2000);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
